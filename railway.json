@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "DOCKER"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
